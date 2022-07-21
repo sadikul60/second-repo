@@ -45,6 +45,7 @@
         }
         .box-one{
             background-color: indigo;
+            padding: 20px;
             padding-top: 70px;
         }
         p{
@@ -57,19 +58,41 @@
         }
         .box-two{
             background-color: palevioletred;
+            padding: 20px;
+            padding-top: 70px;
         }
         .box-tree{
             background-color: aqua;
+            padding: 20px;
+            padding-top: 70px;
         }
         .box-four{
             background-color: brown;
             padding: 20px;
+            padding-top: 70px;
         }
         .box-four img{
             width: 100%;
             
             
 
+        }
+        @media only screen and (max-width:668px) {
+            .nav-bar, .all-box{
+                width: 100%;
+            }
+
+            .nav-bar a{
+                font-size: 12px;
+                text-align: center;
+            }
+            .all-box{
+                display: grid;
+                grid-template-columns: 1fr;
+                flex-direction: column;
+            }
+            
+            
         }
     </style>
 </head>
