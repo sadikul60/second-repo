@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try it</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            margin: 0;
+        }
+        .header{
+            position: absolute;
+        }
+        .nav-bar{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            background-color: gray;
+            position: fixed;
+        }
+        .nav-bar a{
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            color: blueviolet;
+            padding: 10px;
+        }
+        .nav-bar a:hover{
+            color: brown;
+            background: white;
+        }
+        .all-box{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr 2fr;
+            flex-direction: column;
+            column-gap: 30px;
+            height: 30rem;
+            
+            
+            
+        }
+        .box-one{
+            background-color: indigo;
+            padding-top: 70px;
+        }
+        p{
+            text-align: justify;
+        }
+        .box-one img{
+            width: 100%;
+            text-align: justify;
+            align-items: flex-end;
+        }
+        .box-two{
+            background-color: palevioletred;
+        }
+        .box-tree{
+            background-color: aqua;
+        }
+        .box-four{
+            background-color: brown;
+            padding: 20px;
+        }
+        .box-four img{
+            width: 100%;
+            
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">feedback</a>
+        </nav>
+    </header>
+    <section class="all-box">
+        <div class="box-one"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, cupiditate? Possimus iste iure dignissimos dolorum. Recusandae ipsum dolores sint quis exercitationem harum architecto veritatis totam minima illum id ad porro accusamus quisquam cupiditate laborum culpa eos illo, aperiam natus! Cumque accusamus dicta itaque nam, quo explicabo eligendi blanditiis quidem quis!</p>
+        <img src="photos/pic1.jpg" alt="">
+        </div>
+        <div class="box-two"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laborum ipsam adipisci vitae officiis aliquam! Delectus, tempora porro! Voluptate, iusto rem voluptates, quis sapiente ratione at minus qui officiis quas, laboriosam quae deleniti veritatis saepe ex ducimus soluta enim perferendis est sed in aliquam tempora vitae. Voluptas, illum eaque placeat debitis maxime corrupti hic dolor quibusdam id adipisci consequatur temporibus.</p></div>
+        <div class="box-tree"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet excepturi quis ab ipsa! Consectetur, consequuntur. Unde itaque molestiae soluta dolorem saepe eum, officia facilis delectus, impedit dolorum qui natus cum quidem amet sint explicabo dolores harum nostrum accusantium eos corrupti sequi repellendus. Debitis dignissimos perferendis enim nobis temporibus itaque saepe amet perspiciatis. Unde debitis beatae vitae similique repellendus possimus dolorum, eveniet, nesciunt harum quas, officiis impedit! Quidem sapiente eligendi commodi!</p></div>
+        <div class="box-four"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio unde praesentium possimus eveniet blanditiis animi, iste, est impedit tenetur, voluptatum vel? Culpa vel quis esse, eaque labore, cumque in corrupti repellendus quam possimus sapiente eos dignissimos sequi nemo. Mollitia ratione id veniam quasi assumenda vero, ab accusamus sit. Ipsam, illo ullam nam fuga temporibus esse maxime. Cumque quia voluptas architecto corporis sit accusamus asperiores eum doloribus fugit aliquid ipsa ex sunt optio culpa necessitatibus, sequi, dolorem, minus unde reprehenderit in aspernatur ullam? Culpa iure repellat officiis doloribus obcaecati? Excepturi, officiis.</p>
+            <img src="photos/pic2.jpg" alt="">
+        </div>
+    </section>
+</body>
+</html>
